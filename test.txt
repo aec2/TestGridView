@@ -1,0 +1,4 @@
+$counter = 1  # Start a counter for the serial numbers
+
+Get-ChildItem -Path . -File | ForEach-Object {
+    # Generate a random prefix using a GUID
